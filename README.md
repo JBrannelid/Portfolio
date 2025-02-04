@@ -1,6 +1,8 @@
 # Johannes Brannelid - Portfolio
 
-Welcome to my portfolio! This is a personal website showcasing me, Johannes Brannelid.
+Welcome to my portfolio/resume website! This is a personal website showcasing me, Johannes Brannelid.
+
+Check out my full portfolio here: [Johannes Brannelid - Portfolio](https://jbrannelid.github.io/Portfolio/index.html)
 
 ## Project Overview
 
