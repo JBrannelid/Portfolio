@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Johannes Brannelid - Fullstack .NET Developer">
+    <title>Johannes Brannelid | About me</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar section-content" role="navigation" aria-label="Main navigation">
+            <a href="404.html" class="nav-logo">
+                <img class="img-logo" src="assets/jb-logo1.png" alt="initials logo">
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="skill.html" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+    <main class="about-grid-container" role="main">
+        <article class="aside-about">
+            <div class="sidebar">
+                <h1>About Me</h1>
+                <h2>Student<span class="about-span-h2"> Fullstack .NET at Chas Academy - Stockholm, Sweden.</span></h2>
+                
+                <article class="bio-container">
+                    <header class="bio-header">
+                        <h2>Biography</h2>
+                    </header>
+                    <div class="bio-section">
+                        <p>I am a dedicated and responsible person with experience in sales, healthcare, and leadership. My passion for combining medical technology with dynamic and hands-on environments led me to pursue a career as a radiology nurse/Radiographer.</p>
+                        
+                        <p>Over the past seven years, I have worked in emergency care at Karolinska University Hospital, where I held various roles, both clinical and managerial.</p>
+                        
+                        <p>However, balancing a demanding healthcare career with personal life has not always been easy, and I have long been drawn to the field of IT. This sparked my decision to take a bold step forward and pursue studies in full-stack software development.</p>
+                        
+                        <p>With my diverse professional background, a strong desire to learn, and a genuine passion for technology, I am excited to build innovative solutions that bridge my past experiences with my future aspirations.</p>
+                    </div>
+                </article>
+        
+                <aside class="credentials">
+                    <h2>Credits</h2>
+                    <p> Date of issue: 2017-05-30 <br> Credits: 180 <p>
+                    <p> * Degree of Bachelor of Science in Diagnostic Radiology Nursing</p>
+                    <p> * Röntgensjuksköterskeexamen </p>
+                </aside>
+        </article>   
+        <div class="main-about">
+            <section class="gallery" aria-label="Personal photos">
+                <figure class="polaroid">
+                    <div class="polaroid-img">
+                        <img src="assets/Elina.png" alt="My daughter before balett traningsession">
+                    </div>
+                    <figcaption> Grace in Motion</figcaption>
+                </figure>
+                <figure class="polaroid-text">
+                    <div class="polaroid-img-text">
+                        <h3> Timeless Family Moments </h3>
+                    </div>
+                </figure>
+                <figure class="polaroid">
+                    <div class="polaroid-img">
+                        <img src="assets/maxi_remove_bg.png" alt="My son before a football game">
+                    </div>
+                    <figcaption> Match Day Energy </figcaption>
+                </figure>
+                <figure class="polaroid">
+                    <div class="polaroid-img">
+                        <img src="assets/elina_linnea_remove_bg.png" alt="Autumn Harvest with my daughter and wife">
+                    </div>
+                    <figcaption> Autumn Harvest</figcaption>
+                </figure>
+                <figure class="polaroid">
+                    <div class="polaroid-img">
+                        <img src="assets/img_johannes.png" alt="Radiographer profile picture">
+                    </div>
+                    <figcaption>Leg.Radiographer</figcaption>
+                </figure>
+                <figure class="polaroid">
+                    <div class="polaroid-img">
+                        <img src="assets/IMG_2253.JPG" alt="Travel image in the dessert">
+                    </div>
+                    <figcaption> Desert Adventures</figcaption>
+                </figure>
+                <figure class="polaroid">
+                    <div class="polaroid-img">
+                        <img src="assets/Linnea.png" alt="My wife in a natural moment">
+                    </div>
+                    <figcaption> The Heart of Our Home </figcaption>
+                </figure>
+            </section>
+        </div>
+        <!-- Easter egg with java addEventListener -->
+        <div class="easter-egg-modal" id="easterEggModal">
+            <div class="easter-egg-content">
+                <h2>H4x0r!</h2>
+                <p>Wow, you found the secret code! 🎮</p>
+                <button class="easter-egg-close">Close</button>
+            </div>
+        </div>
+    </main>
+    <footer role="contentinfo">
+        <!-- Social media a links -->
+        <section class="footer-socialmedia">
+            <h3 class="footer-h3">Social Media</h3>
+            <div class="button-home">
+                <a href="https://www.instagram.com/jbrannelid/" aria-label="Instagram Profile" title="Instagram" target="_blank" rel="noopener">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/johannes-brannelid" aria-label="LinkedIn Profile" title="LinkedIn" target="_blank" rel="noopener">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="https://github.com/JBrannelid" aria-label="GitHub Profile" title="GitHub" target="_blank" rel="noopener">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </div>
+        </section>
+        <!-- Copyright -->
+        <section class="mid-footer">
+            <p class="descriptions-easteregg">P.S. Hidden easter eggs (key combination) are scattered throughout this site. Try typing different key combinations to discover them! 🎮</p>
+            <p class="copyright">&copy; 2024 Johannes Brannelid. All rights reserved</p>
+        </section>
+        <!-- Dark/light mode and for futures implementation as contact? -->
+        <section class="dark-light-mode-toggle">
+            <button id="theme-switch" aria-label="Toggle dark mode">
+                <!-- fontawsome -->
+                <i class='bx bx-sun'></i>
+            </button>
+        </section>
+    </footer>
+</body>
+</html>
